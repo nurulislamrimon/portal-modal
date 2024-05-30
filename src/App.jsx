@@ -10,7 +10,11 @@ function App() {
       <div>This is Portal Modal App</div>
       <button onClick={() => setShow(true)}>Open Modal</button>
 
-      {show && <Modal setShow={setShow} show={show} />}
+      {show && (
+        <Modal setShow={setShow} show={show}>
+          Childrens here
+        </Modal>
+      )}
     </section>
   );
 }
