@@ -1,0 +1,10 @@
+.half-screen {
+  border: 1px solid blue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  height: 50dvh;
+  margin: 0 auto;
+}
